@@ -1,0 +1,8 @@
+.venv
+results
+docs
+*.zip
+*.md
+.git
+.gitignore
+.DS_Store

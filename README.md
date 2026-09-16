@@ -162,16 +162,3 @@ Dependencies: NumPy and Matplotlib only (`requirements.txt`).
 All randomness goes through NumPy's generator with fixed seeds, so rerunning produces
 identical numbers. Verified on macOS (Python 3.9, NumPy 2.0) and in Docker
 (Python 3.12, NumPy 2.5): all 75 rows of `results/results.csv` match the paper.
-
-## References
-
-- A. Beloglazov and R. Buyya, "Optimal online deterministic algorithms and adaptive
-  heuristics for energy and performance efficient dynamic consolidation of virtual
-  machines in cloud data centers," *Concurrency and Computation: Practice and Experience*,
-  vol. 24, no. 13, 2012.
-- J. Kennedy and R. Eberhart, "Particle swarm optimization," *Proc. IEEE International
-  Conference on Neural Networks*, 1995.
-- Y. Shi and R. C. Eberhart, "A modified particle swarm optimizer," *Proc. IEEE
-  International Conference on Evolutionary Computation*, 1998.
-- J. C. Bean, "Genetic algorithms and random keys for sequencing and optimization,"
-  *ORSA Journal on Computing*, vol. 6, no. 2, 1994.
